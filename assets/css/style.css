@@ -48,6 +48,20 @@ body {
   border-radius: 24px;
   box-shadow: 0 2px 24px #b754fa80, 0 4px 40px #250d59cc;
 }
+.welcome-img,
+.feature-img,
+.team-logo,
+.ownership-logo {
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+  box-sizing: border-box;
+}
+
 
 .feature-images {
   display: flex;
@@ -180,3 +194,41 @@ body {
   text-decoration: underline;
 }
 
+@media (max-width: 600px) {
+  .nav-links {
+    gap: 14px;
+    font-size: 0.95em;
+  }
+  .welcome-img {
+    width: 92vw;
+    max-width: 340px;
+    margin: 0 auto;
+  }
+  .feature-images {
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+  .feature-img {
+    width: 90vw;
+    max-width: 250px;
+    height: auto;
+  }
+  .teams-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .team-logo {
+    width: 70px;
+    height: 70px;
+  }
+  .ownership-logo {
+    width: 110px;
+    height: 110px;
+  }
+  section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
