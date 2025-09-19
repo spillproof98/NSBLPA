@@ -28,6 +28,4 @@ Open any `.html` files in your preferred modern browser. No server or backend ne
 
 Ensure all assets remain in the specified `assets` folder for correct loading.
 
-## Contact
 
-For questions, reach out via `Info@nsblpa.com`
